@@ -1,0 +1,2979 @@
+{
+    "database": {
+        "P07-R01-PastaSalad": {
+            "subset": "test",
+            "split": 1,
+            "duration": 2488.92,
+            "annotations": [
+                {
+                    "segment": [
+                        91.73,
+                        93.63
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1839.32,
+                        1840.37
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        439.645,
+                        443.855
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        2306.985,
+                        2307.895
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        2065.595,
+                        2068.465
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        989.03,
+                        989.83
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        463.62,
+                        465.44
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1810.69,
+                        1811.8
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1594.565,
+                        1597.285
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        117.165,
+                        118.105
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2216.845,
+                        2219.565
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        511.72,
+                        512.86
+                    ],
+                    "label": "Close"
+                },
+                {
+                    "segment": [
+                        2165.98,
+                        2168.3
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2104.65,
+                        2106.83
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        1653.48,
+                        1655.57
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        465.435,
+                        470.875
+                    ],
+                    "label": "Close"
+                },
+                {
+                    "segment": [
+                        338.5,
+                        339.75
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        407.15,
+                        408.57
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        1240.015,
+                        1245.745
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1236.36,
+                        1240.02
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        2045.135,
+                        2046.245
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        766.59,
+                        767.92
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1144.145,
+                        1145.505
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        805.115,
+                        806.315
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        900.56,
+                        902.26
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        473.08,
+                        475.45
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        2315.175,
+                        2319.745
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        2233.45,
+                        2234.54
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        423.76,
+                        426.27
+                    ],
+                    "label": "Close"
+                },
+                {
+                    "segment": [
+                        704.6,
+                        708.53
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        298.49,
+                        300.22
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        964.505,
+                        967.225
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2126.24,
+                        2129.08
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        679.21,
+                        682.29
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        2259.46,
+                        2261.63
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        767.92,
+                        772.0
+                    ],
+                    "label": "Transfer"
+                },
+                {
+                    "segment": [
+                        2232.13,
+                        2233.4
+                    ],
+                    "label": "Turn off"
+                },
+                {
+                    "segment": [
+                        1892.99,
+                        1900.22
+                    ],
+                    "label": "Crack"
+                },
+                {
+                    "segment": [
+                        1268.915,
+                        1273.205
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        894.035,
+                        895.075
+                    ],
+                    "label": "Transfer"
+                },
+                {
+                    "segment": [
+                        1191.76,
+                        1193.79
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        727.78,
+                        731.92
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        254.44,
+                        255.4
+                    ],
+                    "label": "Turn on"
+                },
+                {
+                    "segment": [
+                        1569.965,
+                        1571.875
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        2298.99,
+                        2306.99
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        2408.515,
+                        2411.145
+                    ],
+                    "label": "Turn on"
+                },
+                {
+                    "segment": [
+                        1717.275,
+                        1720.495
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1469.81,
+                        1471.39
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        2266.315,
+                        2276.385
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        603.51,
+                        622.99
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1855.525,
+                        1857.415
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2086.92,
+                        2092.22
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        1410.49,
+                        1413.18
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        806.622,
+                        813.724
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        2106.82,
+                        2117.93
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        653.88,
+                        656.24
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        494.4,
+                        496.75
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        320.47,
+                        321.77
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        309.96,
+                        320.46
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        393.06,
+                        396.84
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2025.53,
+                        2028.81
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        1511.4,
+                        1513.95
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        88.065,
+                        89.57
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        164.45,
+                        166.5
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        2405.94,
+                        2408.54
+                    ],
+                    "label": "Squeeze"
+                },
+                {
+                    "segment": [
+                        2339.315,
+                        2340.795
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1957.395,
+                        1960.185
+                    ],
+                    "label": "Operate"
+                },
+                {
+                    "segment": [
+                        486.425,
+                        487.94
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1546.725,
+                        1551.245
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        927.63,
+                        929.6
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        508.53,
+                        511.72
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        2422.565,
+                        2423.545
+                    ],
+                    "label": "Operate"
+                },
+                {
+                    "segment": [
+                        1571.865,
+                        1575.255
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1541.535,
+                        1545.145
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        2062.15,
+                        2063.93
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1974.03,
+                        1976.76
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        2159.945,
+                        2164.165
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        2168.305,
+                        2169.645
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        814.748,
+                        839.652
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        2002.23,
+                        2011.26
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        2043.03,
+                        2045.11
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        918.575,
+                        920.075
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2064.775,
+                        2065.595
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1213.33,
+                        1227.715
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1862.31,
+                        1863.11
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        243.12,
+                        244.95
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1803.115,
+                        1809.545
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        967.22,
+                        970.37
+                    ],
+                    "label": "Close"
+                },
+                {
+                    "segment": [
+                        1346.735,
+                        1348.395
+                    ],
+                    "label": "Operate"
+                },
+                {
+                    "segment": [
+                        2331.05,
+                        2336.09
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        2208.68,
+                        2212.26
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        2219.57,
+                        2223.31
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        358.73,
+                        365.07
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1800.87,
+                        1802.04
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1152.21,
+                        1166.33
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        2411.145,
+                        2422.575
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        956.065,
+                        957.455
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2181.805,
+                        2190.145
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        2196.04,
+                        2203.11
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        247.55,
+                        248.49
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2242.255,
+                        2248.365
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        79.945,
+                        82.075
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2033.115,
+                        2033.715
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1610.655,
+                        1617.155
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        98.945,
+                        101.45
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1864.975,
+                        1865.925
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1510.125,
+                        1511.415
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1661.5,
+                        1702.57
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        516.225,
+                        521.715
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1438.4,
+                        1466.13
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1357.975,
+                        1359.315
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        146.13,
+                        147.44
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        658.66,
+                        662.78
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1480.0,
+                        1504.45
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1321.395,
+                        1333.17
+                    ],
+                    "label": "Mix"
+                },
+                {
+                    "segment": [
+                        2404.905,
+                        2405.965
+                    ],
+                    "label": "Compress"
+                },
+                {
+                    "segment": [
+                        2358.745,
+                        2360.215
+                    ],
+                    "label": "Divide/Pull Apart"
+                },
+                {
+                    "segment": [
+                        1809.565,
+                        1810.685
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2129.065,
+                        2131.895
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        118.09,
+                        120.33
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2393.785,
+                        2398.865
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        746.04,
+                        749.78
+                    ],
+                    "label": "Close"
+                },
+                {
+                    "segment": [
+                        484.825,
+                        486.425
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1985.27,
+                        2002.22
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        1797.085,
+                        1798.125
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2034.52,
+                        2043.01
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        1373.2,
+                        1397.75
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        2117.94,
+                        2119.57
+                    ],
+                    "label": "Turn off"
+                },
+                {
+                    "segment": [
+                        1255.68,
+                        1263.37
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        176.35,
+                        178.35
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        855.89,
+                        875.93
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1046.825,
+                        1081.655
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        2176.525,
+                        2179.135
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        102.925,
+                        105.105
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        89.57,
+                        91.73
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2278.4,
+                        2282.41
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        1533.085,
+                        1535.955
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        1728.57,
+                        1731.71
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        731.915,
+                        734.115
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1780.81,
+                        1782.01
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1829.75,
+                        1831.77
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        268.32,
+                        269.6
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        2155.82,
+                        2156.8
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        158.88,
+                        162.1
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        756.0,
+                        757.35
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2030.725,
+                        2032.115
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        853.57,
+                        855.88
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        284.68,
+                        294.37
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        280.725,
+                        283.375
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        124.0,
+                        127.13
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1551.25,
+                        1557.92
+                    ],
+                    "label": "Transfer"
+                },
+                {
+                    "segment": [
+                        1336.665,
+                        1340.915
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        2340.8,
+                        2343.78
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        786.1,
+                        791.09
+                    ],
+                    "label": "Mix"
+                },
+                {
+                    "segment": [
+                        2328.015,
+                        2331.055
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1597.28,
+                        1603.18
+                    ],
+                    "label": "Transfer"
+                },
+                {
+                    "segment": [
+                        1858.87,
+                        1859.57
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        1707.84,
+                        1717.28
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1522.28,
+                        1525.47
+                    ],
+                    "label": "Turn on"
+                },
+                {
+                    "segment": [
+                        1702.58,
+                        1707.83
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1471.375,
+                        1474.025
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        662.785,
+                        664.11
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2195.14,
+                        2196.03
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        175.34,
+                        176.34
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1844.33,
+                        1844.86
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1976.75,
+                        1985.26
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        2225.12,
+                        2232.11
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        151.22,
+                        155.2
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1265.735,
+                        1268.925
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        106.57,
+                        107.45
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1844.86,
+                        1845.99
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        78.74,
+                        79.94
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        283.375,
+                        284.675
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        487.94,
+                        489.33
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1127.62,
+                        1129.62
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        131.15,
+                        133.1
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1363.35,
+                        1370.62
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        367.87,
+                        382.23
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        2311.075,
+                        2315.185
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        107.465,
+                        109.075
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1878.82,
+                        1880.54
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        1965.175,
+                        1967.675
+                    ],
+                    "label": "Squeeze"
+                },
+                {
+                    "segment": [
+                        2345.975,
+                        2347.215
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1882.73,
+                        1886.14
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        961.63,
+                        964.505
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1245.73,
+                        1248.57
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        1956.345,
+                        1957.395
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        763.155,
+                        764.935
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        101.45,
+                        102.93
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        489.35,
+                        492.58
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        784.315,
+                        786.095
+                    ],
+                    "label": "Close"
+                },
+                {
+                    "segment": [
+                        1288.065,
+                        1289.565
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        481.3,
+                        482.0
+                    ],
+                    "label": "Close"
+                },
+                {
+                    "segment": [
+                        1277.79,
+                        1284.64
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1348.4,
+                        1351.3
+                    ],
+                    "label": "Operate"
+                },
+                {
+                    "segment": [
+                        883.36,
+                        892.12
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        1397.76,
+                        1401.52
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        1431.545,
+                        1436.325
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        623.04,
+                        638.66
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        743.16,
+                        746.03
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        2371.81,
+                        2377.87
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        957.455,
+                        961.635
+                    ],
+                    "label": "Close"
+                },
+                {
+                    "segment": [
+                        2083.3,
+                        2086.91
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        1650.18,
+                        1653.49
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        321.775,
+                        326.385
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1095.06,
+                        1100.5
+                    ],
+                    "label": "Other"
+                },
+                {
+                    "segment": [
+                        136.65,
+                        139.6
+                    ],
+                    "label": "Transfer"
+                },
+                {
+                    "segment": [
+                        87.485,
+                        88.075
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        2148.835,
+                        2150.995
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        399.65,
+                        407.15
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        1739.33,
+                        1778.1
+                    ],
+                    "label": "Transfer"
+                },
+                {
+                    "segment": [
+                        974.23,
+                        975.36
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        166.51,
+                        168.46
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1126.77,
+                        1127.64
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1916.77,
+                        1933.53
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        972.23,
+                        974.21
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        591.06,
+                        594.85
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        2133.185,
+                        2136.465
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2257.37,
+                        2259.44
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        556.08,
+                        559.5
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        2238.465,
+                        2239.095
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1129.625,
+                        1132.535
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        478.02,
+                        479.61
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1953.245,
+                        1955.425
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        147.43,
+                        151.21
+                    ],
+                    "label": "Transfer"
+                },
+                {
+                    "segment": [
+                        1426.04,
+                        1431.54
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        570.265,
+                        571.815
+                    ],
+                    "label": "Close"
+                },
+                {
+                    "segment": [
+                        1857.415,
+                        1858.855
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        539.07,
+                        539.69
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1890.175,
+                        1890.845
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2212.265,
+                        2213.975
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        699.07,
+                        700.74
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1319.07,
+                        1321.41
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        910.8,
+                        913.09
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1562.795,
+                        1567.945
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1166.32,
+                        1168.67
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        840.65,
+                        850.51
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        170.72,
+                        172.93
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2063.935,
+                        2065.005
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2276.405,
+                        2278.385
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        294.35,
+                        296.78
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        2212.265,
+                        2216.495
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        668.7,
+                        669.69
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1955.43,
+                        1956.33
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1100.51,
+                        1105.79
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        594.85,
+                        599.16
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        550.55,
+                        552.88
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        143.69,
+                        146.13
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        203.235,
+                        203.975
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1359.31,
+                        1362.84
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2174.19,
+                        2176.53
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        346.645,
+                        349.275
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        120.335,
+                        122.255
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        96.97,
+                        98.945
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1811.83,
+                        1817.62
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        386.98,
+                        388.14
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2282.43,
+                        2298.98
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        1333.175,
+                        1336.665
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        2367.615,
+                        2368.235
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1968.43,
+                        1971.75
+                    ],
+                    "label": "Squeeze"
+                },
+                {
+                    "segment": [
+                        1967.68,
+                        1968.43
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2179.135,
+                        2180.925
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        1340.905,
+                        1345.115
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        1535.975,
+                        1541.545
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        1316.205,
+                        1319.065
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        1557.94,
+                        1558.71
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        664.11,
+                        665.63
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1823.55,
+                        1827.77
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        413.99,
+                        418.07
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1575.255,
+                        1579.385
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        2203.12,
+                        2208.68
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        326.39,
+                        327.52
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1250.745,
+                        1255.645
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1137.095,
+                        1139.685
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        656.245,
+                        658.66
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2389.205,
+                        2393.785
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        576.57,
+                        577.45
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        109.075,
+                        110.565
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2131.905,
+                        2133.175
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1973.365,
+                        1974.025
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        2094.355,
+                        2104.655
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        1817.77,
+                        1819.06
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        2378.575,
+                        2384.465
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        895.09,
+                        900.54
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1629.505,
+                        1649.554
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        2401.43,
+                        2404.91
+                    ],
+                    "label": "Squeeze"
+                },
+                {
+                    "segment": [
+                        193.16,
+                        194.47
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        997.485,
+                        999.775
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        426.275,
+                        434.115
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        913.09,
+                        914.42
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        95.7,
+                        96.97
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        72.75,
+                        75.2
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1274.77,
+                        1277.78
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        335.775,
+                        338.495
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2068.465,
+                        2083.305
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        2325.45,
+                        2328.01
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        577.455,
+                        581.485
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1045.91,
+                        1046.825
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        115.72,
+                        117.14
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2354.135,
+                        2355.425
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1942.665,
+                        1944.075
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        2234.53,
+                        2237.53
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        437.39,
+                        439.645
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        302.12,
+                        304.47
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1734.08,
+                        1735.03
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        575.265,
+                        577.445
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        306.79,
+                        308.44
+                    ],
+                    "label": "Operate"
+                },
+                {
+                    "segment": [
+                        2370.06,
+                        2371.79
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        914.42,
+                        916.03
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        388.14,
+                        393.04
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1436.31,
+                        1438.4
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1871.92,
+                        1872.73
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1413.18,
+                        1426.05
+                    ],
+                    "label": "Other"
+                },
+                {
+                    "segment": [
+                        526.02,
+                        526.76
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        719.01,
+                        721.76
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1208.88,
+                        1213.33
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        75.21,
+                        77.27
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1227.75,
+                        1229.47
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        2092.215,
+                        2094.365
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        204.81,
+                        206.01
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        791.1,
+                        795.49
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        382.24,
+                        383.11
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        921.06,
+                        923.96
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        418.085,
+                        419.185
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        492.58,
+                        494.25
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1313.58,
+                        1316.2
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        425.49,
+                        426.27
+                    ],
+                    "label": "Close"
+                },
+                {
+                    "segment": [
+                        2265.325,
+                        2266.185
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        929.6,
+                        954.98
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        523.59,
+                        525.03
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        183.06,
+                        186.7
+                    ],
+                    "label": "Close"
+                },
+                {
+                    "segment": [
+                        1735.03,
+                        1739.34
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        734.11,
+                        737.1
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        77.275,
+                        78.735
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        2033.74,
+                        2034.51
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        1273.205,
+                        1274.785
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        875.93,
+                        880.16
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        178.355,
+                        180.535
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1118.47,
+                        1126.78
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        105.1,
+                        106.57
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1525.46,
+                        1545.455
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        2119.56,
+                        2126.25
+                    ],
+                    "label": "Dry"
+                },
+                {
+                    "segment": [
+                        1401.5,
+                        1410.51
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1838.595,
+                        1839.315
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        112.875,
+                        114.275
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        721.76,
+                        725.02
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        93.63,
+                        95.7
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1521.385,
+                        1522.265
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1229.48,
+                        1233.17
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        2223.315,
+                        2225.135
+                    ],
+                    "label": "Turn on"
+                },
+                {
+                    "segment": [
+                        1513.96,
+                        1520.08
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        1558.72,
+                        1561.76
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        349.295,
+                        352.015
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        114.26,
+                        115.35
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        352.01,
+                        353.0
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1872.73,
+                        1873.28
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        975.39,
+                        986.06
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        1903.84,
+                        1906.24
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        1798.11,
+                        1799.74
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        999.77,
+                        1000.41
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        2261.64,
+                        2263.34
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1909.405,
+                        1913.765
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        739.51,
+                        743.16
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        923.975,
+                        927.615
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1802.08,
+                        1803.12
+                    ],
+                    "label": "Turn on"
+                },
+                {
+                    "segment": [
+                        955.01,
+                        956.07
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        501.94,
+                        503.48
+                    ],
+                    "label": "Close"
+                },
+                {
+                    "segment": [
+                        761.08,
+                        763.16
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        82.065,
+                        83.215
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        180.54,
+                        183.06
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1880.54,
+                        1882.73
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        2151.0,
+                        2155.83
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        640.41,
+                        651.33
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1874.63,
+                        1876.18
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1289.56,
+                        1313.55
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        839.652,
+                        840.64
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        1876.18,
+                        1878.81
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        203.98,
+                        204.81
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        667.085,
+                        668.7
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        419.17,
+                        423.77
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        1263.38,
+                        1265.74
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        774.375,
+                        776.215
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1731.705,
+                        1734.105
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1850.075,
+                        1852.555
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        83.215,
+                        85.905
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        188.75,
+                        190.6
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        85.905,
+                        87.485
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        199.405,
+                        200.795
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1084.86,
+                        1095.03
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1193.79,
+                        1208.86
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        892.11,
+                        894.03
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1524.13,
+                        1525.46
+                    ],
+                    "label": "Turn on"
+                },
+                {
+                    "segment": [
+                        343.25,
+                        344.04
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        552.87,
+                        553.6
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        539.715,
+                        542.995
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        737.12,
+                        739.51
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1605.49,
+                        1607.04
+                    ],
+                    "label": "Put"
+                },
+                {
+                    "segment": [
+                        1655.57,
+                        1658.2
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1861.455,
+                        1862.335
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1081.64,
+                        1084.86
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1617.292,
+                        1628.434
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        133.08,
+                        133.69
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        2309.775,
+                        2311.065
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1892.155,
+                        1892.975
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1587.91,
+                        1589.33
+                    ],
+                    "label": "Close"
+                },
+                {
+                    "segment": [
+                        1466.13,
+                        1469.8
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        757.35,
+                        761.1
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1284.65,
+                        1288.07
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        200.815,
+                        202.005
+                    ],
+                    "label": "Inspect/Read"
+                },
+                {
+                    "segment": [
+                        1168.68,
+                        1191.73
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        1782.075,
+                        1790.815
+                    ],
+                    "label": "Transfer"
+                },
+                {
+                    "segment": [
+                        296.79,
+                        298.48
+                    ],
+                    "label": "Pour"
+                },
+                {
+                    "segment": [
+                        1850.07,
+                        1851.33
+                    ],
+                    "label": "Take"
+                },
+                {
+                    "segment": [
+                        1370.63,
+                        1373.2
+                    ],
+                    "label": "Clean/Wipe"
+                },
+                {
+                    "segment": [
+                        1474.025,
+                        1477.885
+                    ],
+                    "label": "Cut"
+                },
+                {
+                    "segment": [
+                        695.43,
+                        696.26
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        1960.185,
+                        1965.175
+                    ],
+                    "label": "Wash"
+                },
+                {
+                    "segment": [
+                        1248.585,
+                        1250.735
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        725.025,
+                        727.785
+                    ],
+                    "label": "Open"
+                },
+                {
+                    "segment": [
+                        1043.125,
+                        1045.925
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        1790.83,
+                        1797.11
+                    ],
+                    "label": "Transfer"
+                },
+                {
+                    "segment": [
+                        1545.465,
+                        1546.735
+                    ],
+                    "label": "Turn off"
+                },
+                {
+                    "segment": [
+                        1834.805,
+                        1835.315
+                    ],
+                    "label": "Move Around"
+                },
+                {
+                    "segment": [
+                        2012.92,
+                        2025.54
+                    ],
+                    "label": "Wash"
+                }
+            ]
+        }
+   }
+}
