@@ -24,7 +24,7 @@ def evaluation_detection(opt, verbose=True):
     
     mAP, AP, tdiff = run_evaluation_detection(
         opt,
-        opt["video_anno"].format(opt["split"]),
+        opt["video_anno"],
         opt["result_file"].format(opt['exp']),
         tiou_thresholds=np.linspace(0.1, 0.50, 5),
         subset=opt['inference_subset'], verbose=verbose)
