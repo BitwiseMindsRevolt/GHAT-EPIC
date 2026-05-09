@@ -89,7 +89,17 @@ def parse_opt():
         '--dec_head',
         type=int,
         default=4)
-        
+
+    # Gaussian Latent History
+    parser.add_argument(
+        '--num_gaussians',
+        type=int,
+        default=32)
+    parser.add_argument(
+        '--kl_weight',
+        type=float,
+        default=0.01)
+
     # Training settings
     parser.add_argument(
         '--batch_size',
