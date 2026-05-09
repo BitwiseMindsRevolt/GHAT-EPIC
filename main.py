@@ -6,7 +6,7 @@ import torch.nn.parallel
 import torch.nn.functional as F
 import torch.optim as optim
 import numpy as np
-import opts_egtea as opts
+import opts_epic as opts
 
 import time
 import h5py
@@ -39,7 +39,7 @@ def train_one_epoch(opt, model, train_dataset, optimizer, warmup=False):
     epoch_cost = 0
     epoch_cost_cls = 0
     epoch_cost_reg = 0
-    
+
     total_iter = len(train_dataset)//opt['batch_size']
     
     for n_iter,(input_data,cls_label,reg_label,_) in enumerate(tqdm(train_loader)):
@@ -64,17 +64,17 @@ def train_one_epoch(opt, model, train_dataset, optimizer, warmup=False):
         epoch_cost_cls += cost_cls.detach().cpu().item()    
                
         loss = regress_loss_func(reg_label, act_reg)
-        cost_reg = loss  
-        epoch_cost_reg += cost_reg.detach().cpu().item()   
-        
-        cost = opt['alpha']*cost_cls + opt['beta']*cost_reg    
-                
-        epoch_cost += cost.detach().cpu().item() 
+        cost_reg = loss
+        epoch_cost_reg += cost_reg.detach().cpu().item()
+
+        cost = opt['alpha']*cost_cls + opt['beta']*cost_reg
+
+        epoch_cost += cost.detach().cpu().item()
 
         optimizer.zero_grad()
         cost.backward()
-        optimizer.step()   
-                
+        optimizer.step()
+
     return n_iter, epoch_cost, epoch_cost_cls, epoch_cost_reg
 
 def eval_one_epoch(opt, model, test_dataset):
@@ -129,13 +129,48 @@ def train(opt):
         
         model.train()
         n_iter, epoch_cost, epoch_cost_cls, epoch_cost_reg = train_one_epoch(opt, model, train_dataset, optimizer, warmup)
-            
+
         writer.add_scalars('data/cost', {'train': epoch_cost/(n_iter+1)}, n_epoch)
+
+        # Log GTAN: centers, INPUT-CONDITIONED sigmas (avg over a probe batch), and
+        # per-anchor fusion scales. We probe with one mini-batch from the test loader
+        # so the predicted sigmas reflect the trained sigma_conv head on real data.
+        base = model.module if hasattr(model, 'module') else model
+        try:
+            probe_loader = torch.utils.data.DataLoader(
+                test_dataset, batch_size=min(16, opt['batch_size']),
+                shuffle=False, num_workers=0, pin_memory=False, drop_last=False
+            )
+            probe_input = next(iter(probe_loader))[0].float().cuda()
+            with torch.no_grad():
+                base_x_rgb = base.feature_reduction_rgb(probe_input[:, :, :base.n_feature // 2])
+                base_x_flow = base.feature_reduction_flow(probe_input[:, :, base.n_feature // 2:])
+                probe_x = torch.cat([base_x_rgb, base_x_flow], dim=-1).permute([1, 0, 2])
+                probe_x = base.positional_encoding(probe_x)
+                probe_x = base.temporal_encoder(probe_x)
+                for layer in base.encoder_layers:
+                    probe_x = layer(probe_x)
+                probe_x = base.encoder_norm(probe_x)
+                probe_x = base.norm1(probe_x)
+            centers, sigmas = base.gtan_refinement.get_anchor_params(
+                encoded_x=probe_x, seq_len=opt['segment_size']
+            )
+        except Exception:
+            centers, sigmas = base.gtan_refinement.get_anchor_params(seq_len=opt['segment_size'])
+        scales = base.gtan_fusion_scale.detach().cpu()
+        for a, (c, s, f) in enumerate(zip(centers.tolist(), sigmas.tolist(), scales.tolist())):
+            writer.add_scalar(f'gtan/anchor_{a}_center', c, n_epoch)
+            writer.add_scalar(f'gtan/anchor_{a}_sigma', s, n_epoch)
+            writer.add_scalar(f'gtan/anchor_{a}_fusion', f, n_epoch)
+
         print("training loss(epoch %d): %.03f, cls - %f, reg - %f, lr - %f"%(n_epoch,
                                                                             epoch_cost/(n_iter+1),
                                                                             epoch_cost_cls/(n_iter+1),
                                                                             epoch_cost_reg/(n_iter+1),
                                                                             optimizer.param_groups[-1]["lr"]))
+        print("  GTAN centers: " + ", ".join(f"{c:.1f}" for c in centers.tolist()))
+        print("  GTAN sigmas:  " + ", ".join(f"{s:.2f}" for s in sigmas.tolist()))
+        print("  GTAN fusion:  " + ", ".join(f"{f:+.3f}" for f in scales.tolist()))
         
         scheduler.step()
         model.eval()
