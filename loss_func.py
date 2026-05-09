@@ -73,6 +73,13 @@ def regress_loss_func(y,output):
     return loss
 
 
+def gaussian_kl_loss(model):
+    """KL regularizer on the Gaussian Latent History bank to prevent collapse."""
+    if hasattr(model, 'module'):
+        model = model.module
+    return model.gaussian_history.kl_loss()
+
+
 def suppress_loss_func(y,output):
     y = y.float().cuda()
     
